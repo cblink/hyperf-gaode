@@ -26,8 +26,6 @@ class TestGaode extends TestCase
             'origin' => '111.940749,44.918119',
             'destination' => '111.950749,44.928119'
         ]);
-
-        var_dump($response);
     }
 
 }

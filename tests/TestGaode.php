@@ -29,4 +29,15 @@ class TestGaode extends TestCase
         var_dump($response);
     }
 
+    public function testGeoCode()
+    {
+        $lat = '44.918119';
+        $lng = '111.940749';
+        $response = $this->app->geocode->geocode([
+            'address' => '北京市朝阳区阜通东大街6号',
+            'city' => '北京市'
+        ]);
+        var_dump($response['geocodes'][0]['location']);
+    }
+
 }

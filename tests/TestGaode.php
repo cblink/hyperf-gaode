@@ -23,9 +23,10 @@ class TestGaode extends TestCase
         $lat = '44.918119';
         $lng = '111.940749';
         $response = $this->app->direction->electricBike([
-            'origin' => '111.940749,44.918119',
-            'destination' => '111.950749,44.928119'
+            'origin' => '113.942658,22.540748',
+            'destination' => '113.948371,22.535699'
         ]);
+        var_dump($response);
     }
 
 }

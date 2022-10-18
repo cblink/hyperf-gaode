@@ -10,6 +10,7 @@ use Cblink\HyperfGaode\Kernel\ServiceContainer;
  * Class GaodeApp
  *
  * @property Direction\Client $direction
+ * @property GeoCode\Client $geocode
  *
  * @package Cblink\HyperfGaode
  */
@@ -27,6 +28,7 @@ class GaodeApp extends ServiceContainer
     {
         return [
             Direction\ServiceProvider::class,
+            GeoCode\ServiceProvider::class,
         ];
     }
 

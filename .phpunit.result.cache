@@ -1,1 +1,1 @@
-{"version":1,"defects":{"TestGaode::testOrderCheck":5,"TestGaode::testGeoCode":5},"times":{"TestGaode::testOrderCheck":0.653,"TestGaode::testGeoCode":0.555}}
+{"version":1,"defects":{"TestGaode::testOrderCheck":4,"TestGaode::testGeoCode":5},"times":{"TestGaode::testOrderCheck":1.092,"TestGaode::testGeoCode":0.555}}

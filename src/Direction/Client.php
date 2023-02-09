@@ -62,4 +62,16 @@ class Client extends BaseClient
     {
         return $this->sendRequest('get', 'v5/direction/walking', $params);
     }
+
+    /**
+     * 公交路线规划
+     *
+     * @param array $params
+     * @return mixed
+     * @throws \Cblink\HyperfGaode\Kernel\Exception\GaodeException
+     */
+    public function integrated(array $params)
+    {
+        return $this->sendRequest('get', 'v5/direction/integrated', $params);
+    }
 }
